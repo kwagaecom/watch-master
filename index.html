@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Watch</title>
+		<title>Watch House</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -30,32 +30,280 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>
+ <style>
+.social-share {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
 
-			  <header id="header" id="home">
-			    <div class="container">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				      </div>
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="#home">Home</a></li>
-				          <li><a href="#about">About</a></li>
-				          <li><a href="#service">Service</a></li>
-				          <li><a href="#unique">Unique Feature</a></li>
-				          <li><a href="#review">Review</a></li>
-				          <li><a href="#faq">Faq</a></li>
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-				              <li><a href="generic.html">Generic</a></li>
-				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
+.social-share a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.social-share a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-share a svg {
+  width: 20px;
+  height: 20px;
+  fill: #555;
+  vertical-align: middle;
+}
+
+.social-share a.facebook svg {
+  fill: #3b5998;
+}
+
+.social-share a.whatsapp svg {
+  fill: #25d366;
+}
+
+.social-share a.pinterest svg {
+  fill: #bd081c;
+}
+
+.social-share a.linkedin svg {
+  fill: #0077b5;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-share {
+    display: none;
+  }
+}
+
+/* Media Queries Shift Media Solutions| SMS */
+
+@media only screen and (max-width: 1080px) {
+  .body {
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+  </style>
+
+
+  <div class="social-share">
+
+    <a href="https://www.facebook.com/profile.php?id=100083863996708" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20.05,0H3.95A3.952,3.952,0,0,0,0,3.95V20.05A3.952,3.952,0,0,0,3.95,24H12.63V14.71H9.62v-3H12.63v-1.5c0-3.6,2.2-5.55,5.38-5.55a28.475,28.475,0,0,1,3.18.16v3L18.79,9c-1.7,0-2,.81-2,1.95v1.5h4.05l-.53,3.05H16.8V24H20.05A3.952,3.952,0,0,0,24,20.05V3.95A3.952,3.952,0,0,0,20.05,0Z" />
+      </svg>
+    </a>
+
+  
+
+    <a href="https://in.pinterest.com/kwagaWDev/" class="pinterest"><svg viewBox="0 0 64 64">
+        <path d="M14.4,53.8c2.4,2,6.1,0.6,6.8-2.4l0-0.1c0.4-1.8,2.4-10.2,3.2-13.7c0.2-0.9,0.2-1.8-0.1-2.7 C24.2,34,24,32.8,24,31.5c0-4.1,2.4-7.2,5.4-7.2c2.5,0,3.8,1.9,3.8,4.2c0,2.6-1.6,6.4-2.5,9.9c-0.7,3,1.5,5.4,4.4,5.4 c5.3,0,8.9-6.8,8.9-14.9c0-6.1-4.1-10.7-11.6-10.7c-8.5,0-13.8,6.3-13.8,13.4c0,2.4,0.7,4.2,1.8,5.5c0.5,0.6,0.6,0.9,0.4,1.6 c-0.1,0.5-0.4,1.8-0.6,2.2c-0.2,0.7-0.8,1-1.4,0.7c-3.9-1.6-5.7-5.9-5.7-10.7c0-8,6.7-17.5,20-17.5c10.7,0,17.7,7.7,17.7,16 c0,11-6.1,19.2-15.1,19.2c-1.9,0-3.8-0.7-5.2-1.6c-0.9-0.6-2.1-0.1-2.4,0.9c-0.5,1.9-1.1,4.3-1.3,4.9c-0.1,0.5-0.3,0.9-0.4,1.4 c-1,2.7,0.9,5.5,3.7,5.7c2.1,0.1,4.2,0,6.3-0.3c12.4-2,22.1-12.2,23.4-24.7C61.5,18.1,48.4,4,32,4C16.5,4,4,16.5,4,32 C4,40.8,8.1,48.6,14.4,53.8z"></path>
+      </svg></a>
+
+    <a href="https://www.linkedin.com/in/kuldip-ray-311139179/99969-*+-++++
+" class="linkedin"><svg viewBox="0 0 64 64">
+        <path d="M8,54.7C8,55.4,8.6,56,9.3,56h9.3c0.7,0,1.3-0.6,1.3-1.3V23.9c0-0.7-0.6-1.3-1.3-1.3H9.3 c-0.7,0-1.3,0.6-1.3,1.3V54.7z"></path>
+        <path d="M46.6,22.3c-4.5,0-7.7,1.8-9.4,3.7c-0.4,0.4-1.1,0.1-1.1-0.5l0-1.6c0-0.7-0.6-1.3-1.3-1.3h-9.4 c-0.7,0-1.3,0.6-1.3,1.3c0.1,5.7,0,25.4,0,30.7c0,0.7,0.6,1.3,1.3,1.3h9.5c0.7,0,1.3-0.6,1.3-1.3V37.9c0-1,0-2,0.3-2.7 c0.8-2,2.6-4.1,5.7-4.1c4.1,0,6,3.1,6,7.6v15.9c0,0.7,0.6,1.3,1.3,1.3h9.3c0.7,0,1.3-0.6,1.3-1.3V37.4C60,27.1,54.1,22.3,46.6,22.3 z"></path>
+        <path d="M13.9,18.9L13.9,18.9c3.8,0,6.1-2.4,6.1-5.4C19.9,10.3,17.7,8,14,8c-3.7,0-6,2.3-6,5.4 C8,16.5,10.3,18.9,13.9,18.9z"></path>
+      </svg></a>
+
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js">
+var socialShareButtons = document.querySelectorAll(".social-share a");
+
+function shareOnFacebook() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.facebook.com/?u=" +
+    encodeURIComponent(url) +
+    "&t=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnWhatsApp() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl = "https://wa.me/?text=" + encodeURIComponent(title + " " + url);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnPinterest() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.pinterest.com/pin/create/button/?url=" +
+    encodeURIComponent(url) +
+    "&media=&description=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnLinkedIn() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.linkedin.com/sharing/share-offsite/?url=" +
+    encodeURIComponent(url) +
+    "&title=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+socialShareButtons.forEach(function (button) {
+  button.addEventListener("click", function (event) {
+    event.preventDefault();
+    var shareType = this.classList[0];
+    switch (shareType) {
+      case "facebook":
+        shareOnFacebook();
+        break;
+      case "whatsapp":
+        shareOnWhatsApp();
+        break;
+      case "pinterest":
+        shareOnPinterest();
+        break;
+      case "linkedin":
+        shareOnLinkedIn();
+        break;
+    }
+  });
+});
+
+  </script>
+<section class="row align-items-center py-1 px-xl-2">
+    <div class="col-lg-3">
+        <a href="#" class="text-decoration-none">
+            <h5><span class="text-primary">WATCH</span><span class="text-secondary">HOUSE</span></h5>
+        </a>
+    </div>
+    <div class="col-lg-3 text-right">
+        <a href="https://www.google.com/maps?q=123+Street,+New+York,+USA" target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="d-inline-flex align-items-center">
+                <i class="fas fa-location-dot"></i>
+                <div class="text-left ml-2">
+                    <h5><span class="badge bg-secondary">123 Street, Delhi</span></h5>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 text-right">
+        <a href="mailto:help@hostel.com" style="text-decoration: none; color: inherit;">
+            <div class="d-inline-flex align-items-center">
+                <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                <div class="text-left">
+                    <h5><span class="badge bg-danger">service@watchhouse.com</span></h5>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 text-right">
+        <div class="d-inline-flex align-items-center">
+            <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+            <div class="text-left">
+                <h5><span class="badge bg-success">+91 34578 67895</span></h5>
+            </div>
+        </div>
+    </div>
+</section>
+   <header id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="Logo" title="Home" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#feature">Feature</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <!-- Order button triggers modal -->
+                        <li><a href="#" data-toggle="modal" data-target="#orderModal">Order</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Modal for Order -->
+    <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderModalLabel">Place Your Order</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Order Form -->
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="orderName">Full Name</label>
+                            <input type="text" class="form-control" id="orderName" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="orderEmail">Email address</label>
+                            <input type="email" class="form-control" id="orderEmail" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="orderItems">Items to Order</label>
+                            <textarea class="form-control" id="orderItems" rows="3" placeholder="Enter items you wish to order" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="orderDate">Order Date</label>
+                            <input type="date" class="form-control" id="orderDate" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (for modal functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- #header -->
 
 
 			<!-- start banner Area -->
@@ -63,11 +311,108 @@
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-center">
 						<div class="banner-content col-lg-10">
-							<h5 class="text-white text-uppercase">Now you can feel the Heat</h5>
-							<h1>
-								Smart New Future				
-							</h1>
-							<a href="#" class="primary-btn text-uppercase">Buy Now</a>
+							
+							<h3>
+								<span class="badge bg-secondary">Smart</span><span class="badge bg-info">Watches</span> <span class="badge bg-success">Collection</span> 			
+							</h3>
+							<!-- Buy Now Button -->
+<!-- Buy Now Button -->
+<a href="#" class="primary-btn text-uppercase" data-toggle="modal" data-target="#buyNowModal">Buy Now</a>
+
+<!-- Modal Structure -->
+<div class="modal fade" id="buyNowModal" tabindex="-1" role="dialog" aria-labelledby="buyNowModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="buyNowModalLabel">Complete Your Purchase</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <!-- User Information -->
+          <div class="form-group">
+            <label for="userName">Full Name:</label>
+            <input type="text" id="userName" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="userMobile">Mobile Number:</label>
+            <input type="text" id="userMobile" class="form-control" placeholder="Enter your mobile number" required>
+          </div>
+          <div class="form-group">
+            <label for="userEmail">Email Address:</label>
+            <input type="email" id="userEmail" class="form-control" placeholder="Enter your email" required>
+          </div>
+
+          <h6>Select Payment Method:</h6>
+          
+          <!-- Payment Options -->
+          <div class="form-group">
+            <label>
+              <input type="radio" name="paymentOption" value="paytm" checked> Paytm
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <label>
+              <input type="radio" name="paymentOption" value="gpay"> Google Pay
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <label>
+              <input type="radio" name="paymentOption" value="phonepe"> PhonePe
+            </label>
+          </div>
+          
+          <!-- Payment Details Based on Option -->
+          <div id="paymentDetails">
+            <!-- Paytm QR Code -->
+            <div class="paytm-details">
+              <p>Scan the QR code to complete the payment via Paytm:</p>
+              <img src="paytm-qr.png" alt="Paytm QR Code" class="img-fluid" style="max-width: 200px;">
+            </div>
+            
+            <!-- Google Pay Message -->
+            <div class="gpay-details d-none">
+              <p>Use Google Pay UPI ID: <strong>gpay@yourmerchant</strong></p>
+            </div>
+
+            <!-- PhonePe Message -->
+            <div class="phonepe-details d-none">
+              <p>Use PhonePe UPI ID: <strong>phonepe@yourmerchant</strong></p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success">Proceed to Payment</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery and Bootstrap JS (Include this if you haven’t already) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Custom JS to Handle Payment Option Display -->
+<script>
+  $('input[name="paymentOption"]').on('change', function() {
+    const selectedOption = $(this).val();
+    $('.paytm-details, .gpay-details, .phonepe-details').addClass('d-none');
+    if (selectedOption === 'paytm') {
+      $('.paytm-details').removeClass('d-none');
+    } else if (selectedOption === 'gpay') {
+      $('.gpay-details').removeClass('d-none');
+    } else if (selectedOption === 'phonepe') {
+      $('.phonepe-details').removeClass('d-none');
+    }
+  });
+</script>
+
 						</div>											
 					</div>
 				</div>
@@ -75,171 +420,766 @@
 			<!-- End banner Area -->	
 
 			<!-- Start video-sec Area -->
-			<section class="video-sec-area section-gap" id="about">
-				<div class="container">
-					<div class="row justify-content-center align-items-center ">
-						<div class="col-lg-6 video-left">
-							<h6>Brand new app to blow your mind</h6>
-							<h1>We’ve made a life <br>
-							that will change you</h1>
-							<p><span>We are here to listen from you deliver exellence</span></p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-							</p>
-							<a class="primary-btn" href="#">Get Started now</a>
-						</div>
-						<div class="col-lg-6 video-right justify-content-center align-items-center d-flex">
-							<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
-						</div>
-					</div>
-				</div>	
-			</section>
+			<section class="about-us section-gap" id="about">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <!-- Left Side - About Us Text -->
+            <div class="col-lg-6 about-left">
+                <h6 class="subheading">About Our Watch</h6>
+                <h1 class="heading">We’ve created a solution <br> to transform your life</h1>
+                <p class="highlight">
+                    <span>We are committed to listening to your needs and delivering excellence.</span>
+                </p>
+                <p class="description">
+                    Our watch is designed with your unique needs in mind. Whether you're looking for innovation or efficiency, we've got you covered. Experience the future of seamless interactions, and elevate your lifestyle with our cutting-edge technology.
+                </p>
+                <div class="phone-input">
+    
+    <i class="fas fa-phone-alt"></i> <button type="button" class="btn btn-secondary">+91 7838090427</button><!-- Font Awesome Phone Icon -->
+    
+</div>
+            </div>
+            
+            <!-- Right Side - Video or Image Section -->
+            <div class="col-lg-6 about-right d-flex justify-content-center align-items-center">
+                <div class="video-wrapper position-relative">
+                    <div class="overlay overlay-bg"></div>
+                    <!-- Play Button with YouTube Video -->
+                    <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM" target="_blank">
+                        <img class="img-fluid" src="img/play-icon.png" alt="Play Video">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Custom CSS for About Us Section -->
+<style>
+    .about-us {
+        padding: 60px 0;
+        background-color: #f9f9f9;
+    }
+    .about-left h6.subheading {
+        font-size: 18px;
+        color: #ff6b6b;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .about-left h1.heading {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        line-height: 1.3;
+    }
+    .about-left p.highlight span {
+        font-weight: bold;
+        color: #333;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .about-left p.description {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    .primary-btn {
+        background-color: #ff6b6b;
+        color: #fff;
+        padding: 12px 30px;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .primary-btn:hover {
+        background-color: #ff4b4b;
+        color: #fff;
+    }
+    .video-wrapper {
+        position: relative;
+    }
+    .overlay-bg {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .play-btn {
+        z-index: 2;
+        position: relative;
+    }
+    .play-btn img {
+        width: 80px;
+    }
+</style>
+<section class="home-about-area"id="about">
+    <div class="container-fluid">               
+        <div class="row justify-content-center align-items-center">
+            <!-- Left side: Image -->
+            <div class="col-lg-6 col-md-6 col-sm-12 no-padding home-about-left">
+                <img class="img-fluid" src="img/about-img.jpg" alt="About Us Image">
+            </div>
+            <!-- Right side: Description -->
+            <div class="col-lg-6 col-md-6 col-sm-12 no-padding home-about-right">
+                <h1>Discover the Timeless Elegance<br> of Our Watches</h1>
+                <p>
+                    <span>Crafted with precision and style, we bring you the best timepieces.</span>
+                </p>
+                <p>
+                    Explore our collection designed for every occasion, from casual outings to formal events. Each watch is a blend of functionality and fashion, ensuring you never miss a moment.
+                </p>
+                <!-- Button to trigger the modal -->
+                <a class="text-uppercase primary-btn" href="#" data-bs-toggle="modal" data-bs-target="#detailsModal">get details</a>
+
+                <!-- Modal Structure -->
+                <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="detailsModalLabel">Watch Features</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <!-- Modal Body with Listing of Watch Features -->
+                            <div class="modal-body">
+                                <h6>Key Features of the Watch:</h6>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><strong>Display:</strong> 1.5-inch OLED touch screen, 450x450 resolution</li>
+                                    <li class="list-group-item"><strong>Battery Life:</strong> 7-day battery with fast charging</li>
+                                    <li class="list-group-item"><strong>Water Resistance:</strong> 50 meters depth, suitable for swimming</li>
+                                    <li class="list-group-item"><strong>Fitness Tracking:</strong> Heart rate monitor, sleep tracker, step counter</li>
+                                    <li class="list-group-item"><strong>Connectivity:</strong> Bluetooth 5.0, Wi-Fi, GPS</li>
+                                    <li class="list-group-item"><strong>Notifications:</strong> Call, text, app notifications synced with your phone</li>
+                                </ul>
+                            </div>
+                            <!-- Modal Footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
 			<!-- End video-sec Area -->
 			
 			<!-- Start top-course Area -->
-			<section class="top-course-area section-gap">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-10">
-							<div class="title text-center">
-								<h1 class="mb-10">Top Courses That are open for Students</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
-							</div>
-						</div>
-					</div>					
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-3 course-left">
-							<div class="single-course">
-								<span class="lnr lnr-rocket"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-							<div class="single-course">
-								<span class="lnr lnr-cog"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>							
-						</div>
-						<div class="col-lg-6 course-middle">
-							<img class="img-fluid mx-auto d-block" src="img/c1.png" alt="">
-						</div>
-						<div class="col-lg-3 course-right">
-							<div class="single-course">
-								<span class="lnr lnr-apartment"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-							<div class="single-course">
-								<span class="lnr lnr-phone"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>														
-						</div>
-					</div>
-				</div>	
-			</section>
+			<section class="top-course-area section-gap"id="feature">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content pb-60 col-lg-10">
+				<div class="title text-center">
+					<b>Features of the Watch</b>
+				</div>
+			</div>
+		</div>					
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-3 course-left">
+				<div class="single-course">
+					<span class="lnr lnr-rocket"></span>
+					<a href="#"><h4>High Performance</h4></a>
+					<p>
+						This watch delivers exceptional speed and power, ensuring efficient performance in various conditions.
+					</p>
+				</div>
+				<div class="single-course">
+					<span class="lnr lnr-cog"></span>
+					<a href="#"><h4>Advanced Mechanism</h4></a>
+					<p>
+						Built with cutting-edge technology, the watch operates with precision and reliability for extended usage.
+					</p>
+				</div>							
+			</div>
+			<div class="col-lg-6 course-middle">
+				<img class="img-fluid mx-auto d-block" src="img/c1.png" alt="Watch Features Image">
+			</div>
+			<div class="col-lg-3 course-right">
+				<div class="single-course">
+					<span class="lnr lnr-apartment"></span>
+					<a href="#"><h4>Durable Design</h4></a>
+					<p>
+						Designed to withstand harsh environments, the watch offers durability with style.
+					</p>
+				</div>
+				<div class="single-course">
+					<span class="lnr lnr-phone"></span>
+					<a href="#"><h4>Smart Connectivity</h4></a>
+					<p>
+						Stay connected with smart features like call notifications and fitness tracking right from your wrist.
+					</p>
+				</div>														
+			</div>
+		</div>
+	</div>	
+</section>
+
+<section class="we-offer-area text-center bg-gray" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="site-heading text-center">
+                    <h2>Watches We <span>Offer</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row our-offer-items">
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="img/u1.jpg" alt="Project Creation" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal1">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="img/u2.jpg" alt="Software Development" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal2">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="img/u3.jpg" alt="Project Management" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal3">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="img/u4.jpg" alt="Project Implementation" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal4">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+        </div>
+    </div>
+
+    <!-- Modals Section --><section class="we-offer-area text-center bg-gray" id="services">
+    <div class="container">
+     
+        <div class="row our-offer-items">
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWCQET7SK4ii6iWmTSNKQWWDHEl5i4x17h33AmIFTP9WqHvX1RISN1Xv41tHo8obwFbiJWQVjYsK8sR5pNjb7otlkcBpzAEFpkZ5N3c7rzN4qnfTPPlVrch7s-xD5003R9PCu9hG7yVCf4n_6kl-gayON7Oq8Xfv4bjLG_ySQD1SgIZQ1M3JZZk6LOvyvl/s320/watch2-removebg-preview.png" alt="Project Creation" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal5">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqkMN7CRVZeI9NrcexkYMTCIYeMhsuoEFwE2Z2p13u9bEoek0p6FqMqjibqE27YANE72nYr3MPuFqSvAEfSao2K-NQpfkVaWNRCTbcicpgsdUm10O_gpdmcq6uvfL5r669kthx7PEFL6iqqRCFepcXU0WAXpual5g8t8oHh84YmijLuWwPQdOijD7lbC4/s320/watch8-removebg-preview.png" alt="Software Development" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal6">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0pKT1m7VIXiOyqypyOCSW50sPu0nLDNmki5QxPMiaaQ29ya46YYg_3McEXef99tB0x_UF5QvYWAP44r1qH12U5gB5vD8ojEpUpj92R1tkEGCL0kft21MwziTYRQgfaKJrIDWDGDvIgnXfmWzcRL2E7woxEnlqEe0DszWVmdb4ZE480siDEOlLUYqllMHB/s320/watch7-removebg-preview.png" alt="Project Management" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal7">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-3 col-sm-6 item">
+                <div class="item-content">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-Z8xMUg-323Sbn0zY-q7ioQqaIhvNXlj63Hxmorodb6n-U4Ciq3xR-n7XbKsUpfyArZSNhAT91tkh0S-iqwvwmT-8G8QbRktyr8QLs_G6EozCtB0h49ucpN932-34W4NDzlr6fAN4-5FwpzR9hd_9NaJm9nGm91rvOhmrqOWKMHZEIYOO7tLm2yiVBg-/s320/watch5-removebg-preview.png" alt="Project Implementation" class="item-image">
+                    <h6>Exclusive Watch</h6>
+                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal8">Enquiry Now</a>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+        </div>
+    </div>
+
+    <!-- Modals Section -->
+    <!-- Inquiry Modal 1 -->
+    <div class="modal fade" id="inquiryModal1" tabindex="-1" aria-labelledby="inquiryModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel1">Enquiry for Exclusive Watch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="img/u1.jpg" alt="Home Tutors for Primary" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name1" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email1" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone1" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone1" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline1" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline1" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal 2 -->
+    <div class="modal fade" id="inquiryModal2" tabindex="-1" aria-labelledby="inquiryModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel2">Enquiry for Exclusive Watch </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="img/u2.jpg" alt="Home Tutors for Higher" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name2" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name2" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email2" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email2" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone2" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone2" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline2" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline2" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal 3 -->
+    <div class="modal fade" id="inquiryModal3" tabindex="-1" aria-labelledby="inquiryModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel3">Enquiry for Exclusive Watch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="img/u3.jpg" alt="Home Tutors For Engineering" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name3" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name3" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email3" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email3" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone3" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone3" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline3" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline3" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal 4 -->
+    <div class="modal fade" id="inquiryModal4" tabindex="-1" aria-labelledby="inquiryModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel4">Enquiry for Exclusive Watch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="img/u4.jpg" alt="Home Tutors For Medical" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name4" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone4" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline4" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="inquiryModal5" tabindex="-1" aria-labelledby="inquiryModalLabel5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel5">Enquiry for Exclusive Watch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWCQET7SK4ii6iWmTSNKQWWDHEl5i4x17h33AmIFTP9WqHvX1RISN1Xv41tHo8obwFbiJWQVjYsK8sR5pNjb7otlkcBpzAEFpkZ5N3c7rzN4qnfTPPlVrch7s-xD5003R9PCu9hG7yVCf4n_6kl-gayON7Oq8Xfv4bjLG_ySQD1SgIZQ1M3JZZk6LOvyvl/s320/watch2-removebg-preview.png" alt="Home Tutors for Primary" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name1" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email1" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone1" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone1" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline1" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline1" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal 2 -->
+    <div class="modal fade" id="inquiryModal6" tabindex="-1" aria-labelledby="inquiryModalLabel6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel6">Enquiry for Exclusive Watch </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqkMN7CRVZeI9NrcexkYMTCIYeMhsuoEFwE2Z2p13u9bEoek0p6FqMqjibqE27YANE72nYr3MPuFqSvAEfSao2K-NQpfkVaWNRCTbcicpgsdUm10O_gpdmcq6uvfL5r669kthx7PEFL6iqqRCFepcXU0WAXpual5g8t8oHh84YmijLuWwPQdOijD7lbC4/s320/watch8-removebg-preview.png" alt="Home Tutors for Higher" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name2" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name2" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email2" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email2" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone2" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone2" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline2" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline2" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal 3 -->
+    <div class="modal fade" id="inquiryModal7" tabindex="-1" aria-labelledby="inquiryModalLabel7" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel7">Enquiry for Exclusive Watch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0pKT1m7VIXiOyqypyOCSW50sPu0nLDNmki5QxPMiaaQ29ya46YYg_3McEXef99tB0x_UF5QvYWAP44r1qH12U5gB5vD8ojEpUpj92R1tkEGCL0kft21MwziTYRQgfaKJrIDWDGDvIgnXfmWzcRL2E7woxEnlqEe0DszWVmdb4ZE480siDEOlLUYqllMHB/s320/watch7-removebg-preview.png" alt="Home Tutors For Engineering" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name3" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name3" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email3" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email3" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone3" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone3" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline3" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline3" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inquiry Modal 4 -->
+    <div class="modal fade" id="inquiryModal8" tabindex="-1" aria-labelledby="inquiryModalLabel8" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel8">Enquiry for Exclusive Watch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-Z8xMUg-323Sbn0zY-q7ioQqaIhvNXlj63Hxmorodb6n-U4Ciq3xR-n7XbKsUpfyArZSNhAT91tkh0S-iqwvwmT-8G8QbRktyr8QLs_G6EozCtB0h49ucpN932-34W4NDzlr6fAN4-5FwpzR9hd_9NaJm9nGm91rvOhmrqOWKMHZEIYOO7tLm2yiVBg-/s320/watch5-removebg-preview.png" alt="Home Tutors For Medical" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name4" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone4" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline4" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+
+<style>
+    .we-offer-area {
+        padding: 50px 0;
+    }
+
+    .our-offer-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .item {
+        flex: 1 1 calc(25% - 20px); /* Adjust width and spacing */
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item-content {
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .item-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        max-height: 150px; /* Limit image height */
+        object-fit: cover; /* Ensure the image covers the space */
+    }
+
+    .enquiry-button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .enquiry-button:hover {
+        background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+        .item {
+            flex: 1 1 calc(50% - 20px); /* Adjust for smaller screens */
+        }
+    }
+
+    @media (max-width: 576px) {
+        .item {
+            flex: 1 1 100%; /* Full width on very small screens */
+        }
+    }
+</style>
 			<!-- End top-course Area -->
 			
 			<!-- Start home-about Area -->
-			<section class="home-about-area">
-				<div class="container-fluid">				
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-6 no-padding home-about-left">
-							<img class="img-fluid" src="img/about-img.jpg" alt="">
-						</div>
-						<div class="col-lg-6 no-padding home-about-right">
-							<h1>Globally Connected <br>
-							by Large Network</h1>
-							<p>
-								<span>We are here to listen from you deliver exellence</span>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-							</p>
-							<a class="text-uppercase primary-btn" href="#">get details</a>
-						</div>
-					</div>
-				</div>	
-			</section>
+			
 			<!-- End home-about Area -->			
 
 			<!-- Start service Area -->
-			<section class="service-area section-gap" id="service">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-8 pb-40 header-text">
-							<h1>Some Features that Made us Unique</h1>
-							<p>
-								Who are in extremely love with eco friendly system.
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-license"></span>Professional Service</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-phone"></span>Great Support</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>				
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>									
-							</div>
-						</div>						
-					</div>
-				</div>	
-			</section>
+			<!--<section class="watch-showcase section-gap" id="watches">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-40 header-text">
+                <h1>Our Exclusive Watch Collection</h1>
+                <p>Discover the perfect blend of style and functionality with our exquisite range of watches.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-watch">
+                    <img src="path/to/watch1.jpg" alt="Luxury Watch 1" class="watch-image">
+                    <h4><span class="lnr lnr-clock"></span>Luxury Watch</h4>
+                    <p>Elevate your style with this elegant luxury watch that features a stainless steel case and a premium leather strap.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-watch">
+                    <img src="path/to/watch2.jpg" alt="Sport Watch" class="watch-image">
+                    <h4><span class="lnr lnr-clock"></span>Sport Watch</h4>
+                    <p>This durable sport watch is perfect for outdoor adventures, featuring water resistance and a rugged design.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-watch">
+                    <img src="path/to/watch3.jpg" alt="Classic Watch" class="watch-image">
+                    <h4><span class="lnr lnr-clock"></span>Classic Watch</h4>
+                    <p>A timeless classic that combines simplicity and sophistication, ideal for any occasion.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-watch">
+                    <img src="path/to/watch4.jpg" alt="Smart Watch" class="watch-image">
+                    <h4><span class="lnr lnr-clock"></span>Smart Watch</h4>
+                    <p>Stay connected and track your fitness goals with this advanced smart watch featuring a touchscreen display.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-watch">
+                    <img src="path/to/watch5.jpg" alt="Fashion Watch" class="watch-image">
+                    <h4><span class="lnr lnr-clock"></span>Fashion Watch</h4>
+                    <p>This trendy fashion watch is perfect for making a statement with its unique design and vibrant colors.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-watch">
+                    <img src="path/to/watch6.jpg" alt="Vintage Watch" class="watch-image">
+                    <h4><span class="lnr lnr-clock"></span>Vintage Watch</h4>
+                    <p>Embrace the charm of yesteryear with this vintage watch, featuring intricate details and classic aesthetics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
 			<!-- End service Area -->	
 
 			<!-- Start unique-feature Area -->
-			<section class="unique-feature-area section-gap" id="unique">
+			<!--<section class="unique-feature-area section-gap" id="unique">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-10">
@@ -300,11 +1240,11 @@
 						</div>																		
 					</div>
 				</div>	
-			</section>
+			</section>-->
 			<!-- End unique-feature Area -->
 		
 			<!-- Start review Area -->
-			<section class="review-area section-gap" id="review">
+			<!-- <section class="review-area section-gap" id="review">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-10">
@@ -407,135 +1347,625 @@
 						</div>																
 					</div>
 				</div>	
-			</section>
+			</section>-->
 			<!-- End review Area -->
 
 			<!-- Start faq Area -->
 			<section class="faq-area section-gap" id="faq">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-10">
-							<div class="title text-center">
-								<h1 class="mb-10">Frequently Asked Questions</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-60 col-lg-10">
+        <div class="title text-center">
+          <h1 class="mb-10">Frequently Asked Questions</h1>
+          <p>Your most common questions about our watch selling, service, and repair answered.</p>
+        </div>
+      </div>
+    </div>            
+    <div class="row justify-content-start">
+      <div class="col-lg-6 faq-left">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Do you offer a warranty for the watches you sell?
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+              Yes, all our watches come with a manufacturer’s warranty ranging from 1 to 5 years, depending on the brand. Please check the warranty details provided with each watch.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How long does a typical watch repair take?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+              The time for repair depends on the complexity of the issue. Standard repairs, such as battery replacement or strap adjustments, usually take a few hours, while more complex issues might take up to 2 weeks.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Can I bring in any watch for service, even if I didn’t buy it from your store?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+              Yes, we provide service and repair for most major watch brands, regardless of whether they were purchased from us. Please bring the watch in for assessment.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Do you provide watch battery replacement?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+              Yes, we offer battery replacement services for all major watch brands. The process typically takes less than 30 minutes, and we use high-quality batteries to ensure longevity.
+              </div>
+            </div>
+          </div>  
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Can you service luxury and vintage watches?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+              Absolutely! Our team of expert watchmakers is experienced in servicing luxury and vintage watches. We handle each piece with the utmost care and use original parts when available.
+              </div>
+            </div>
+          </div>                
+        </div>              
+      </div>  
+    </div>
+  </div>  
+</section>
+
+<style>
+/* Scoped Contact Form Styles */
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+  background: url("https://media.istockphoto.com/id/1226864194/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script-3d.webp?a=1&b=1&s=612x612&w=0&k=20&c=j4IQvF7tVIsAC_s_wlfaaeYcD3DQkKq7tlAlm8ybYnE=");
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form-container .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form-container button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form-container button:hover {
+    background-color: #4cae4c;
+}
+
+</style>
+<div class="section-top-border"id="gallery">
+						<h3>Gallery</h3>
+						<div class="row gallery-item">
+							<div class="col-md-4">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWCQET7SK4ii6iWmTSNKQWWDHEl5i4x17h33AmIFTP9WqHvX1RISN1Xv41tHo8obwFbiJWQVjYsK8sR5pNjb7otlkcBpzAEFpkZ5N3c7rzN4qnfTPPlVrch7s-xD5003R9PCu9hG7yVCf4n_6kl-gayON7Oq8Xfv4bjLG_ySQD1SgIZQ1M3JZZk6LOvyvl/s200/watch2-removebg-preview.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWCQET7SK4ii6iWmTSNKQWWDHEl5i4x17h33AmIFTP9WqHvX1RISN1Xv41tHo8obwFbiJWQVjYsK8sR5pNjb7otlkcBpzAEFpkZ5N3c7rzN4qnfTPPlVrch7s-xD5003R9PCu9hG7yVCf4n_6kl-gayON7Oq8Xfv4bjLG_ySQD1SgIZQ1M3JZZk6LOvyvl/s320/watch2-removebg-preview.png);"></div></a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Jz1SszV27p7lwckX2dXZIT2TfJNRi0vHUm59HgIWAWGX6VeICCTeVjNStkSTv_BVSO0kOUcDNEpFdnC81zlzwCF_I6uEoBSjC5nQjn2JKtzdC7ch1cBNwVhkF8MHCiNUUwHGFPIpXkKjJsbW7BEsfucJe0epafjyWggw9QTUp7ckYzf3PoEOYSy08YxO/s320/image_2024-09-26_141646263.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Jz1SszV27p7lwckX2dXZIT2TfJNRi0vHUm59HgIWAWGX6VeICCTeVjNStkSTv_BVSO0kOUcDNEpFdnC81zlzwCF_I6uEoBSjC5nQjn2JKtzdC7ch1cBNwVhkF8MHCiNUUwHGFPIpXkKjJsbW7BEsfucJe0epafjyWggw9QTUp7ckYzf3PoEOYSy08YxO/s320/image_2024-09-26_141646263.png);"></div></a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Jz1SszV27p7lwckX2dXZIT2TfJNRi0vHUm59HgIWAWGX6VeICCTeVjNStkSTv_BVSO0kOUcDNEpFdnC81zlzwCF_I6uEoBSjC5nQjn2JKtzdC7ch1cBNwVhkF8MHCiNUUwHGFPIpXkKjJsbW7BEsfucJe0epafjyWggw9QTUp7ckYzf3PoEOYSy08YxO/s320/image_2024-09-26_141646263.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Jz1SszV27p7lwckX2dXZIT2TfJNRi0vHUm59HgIWAWGX6VeICCTeVjNStkSTv_BVSO0kOUcDNEpFdnC81zlzwCF_I6uEoBSjC5nQjn2JKtzdC7ch1cBNwVhkF8MHCiNUUwHGFPIpXkKjJsbW7BEsfucJe0epafjyWggw9QTUp7ckYzf3PoEOYSy08YxO/s320/image_2024-09-26_141646263.png);"></div></a>
+							</div>
+							<div class="col-md-6">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQDm2lJ-q0H5KpK3wPLTsWuuTLsa_DTALR7yq29ZtgCapkQZVKWQhvWSoKYYL7e9xgLei98LF6-UY8U10kwygrBbkF68YbL7D1m55eO6ObxZ9WiKIQjSvkYbUipPGoEwxuNgXfreC51dwQ9-0aegtcwRny9QwuScG5dY8sDTVcf9Y4X5Vo3WEK7fJOKNb6/s320/watch4-removebg-preview.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQDm2lJ-q0H5KpK3wPLTsWuuTLsa_DTALR7yq29ZtgCapkQZVKWQhvWSoKYYL7e9xgLei98LF6-UY8U10kwygrBbkF68YbL7D1m55eO6ObxZ9WiKIQjSvkYbUipPGoEwxuNgXfreC51dwQ9-0aegtcwRny9QwuScG5dY8sDTVcf9Y4X5Vo3WEK7fJOKNb6/s200/watch4-removebg-preview.png);"></div></a>
+							</div>
+							<div class="col-md-6">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-Z8xMUg-323Sbn0zY-q7ioQqaIhvNXlj63Hxmorodb6n-U4Ciq3xR-n7XbKsUpfyArZSNhAT91tkh0S-iqwvwmT-8G8QbRktyr8QLs_G6EozCtB0h49ucpN932-34W4NDzlr6fAN4-5FwpzR9hd_9NaJm9nGm91rvOhmrqOWKMHZEIYOO7tLm2yiVBg-/s320/watch5-removebg-preview.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-Z8xMUg-323Sbn0zY-q7ioQqaIhvNXlj63Hxmorodb6n-U4Ciq3xR-n7XbKsUpfyArZSNhAT91tkh0S-iqwvwmT-8G8QbRktyr8QLs_G6EozCtB0h49ucpN932-34W4NDzlr6fAN4-5FwpzR9hd_9NaJm9nGm91rvOhmrqOWKMHZEIYOO7tLm2yiVBg-/s320/watch5-removebg-preview.png);"></div></a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi02EebmN8J5IqUqeWs3c8xvuQpX5Kjk1jXVHcxIrI1l9xclzNiSdQ8GizFQP19_URlNB7hACpMljvGyTo429dCT_tD4IWBkPinxqLSQ2L0NUrH63YUJo3enmyhJbyYuvldN3xxxlXOJ7yXE69gNjwZ0JQp6LekuvKTDrRHm6Sjx9S3GvrPawzJCo3yn06I/s320/watch6-removebg-preview.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi02EebmN8J5IqUqeWs3c8xvuQpX5Kjk1jXVHcxIrI1l9xclzNiSdQ8GizFQP19_URlNB7hACpMljvGyTo429dCT_tD4IWBkPinxqLSQ2L0NUrH63YUJo3enmyhJbyYuvldN3xxxlXOJ7yXE69gNjwZ0JQp6LekuvKTDrRHm6Sjx9S3GvrPawzJCo3yn06I/s320/watch6-removebg-preview.png);"></div></a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0pKT1m7VIXiOyqypyOCSW50sPu0nLDNmki5QxPMiaaQ29ya46YYg_3McEXef99tB0x_UF5QvYWAP44r1qH12U5gB5vD8ojEpUpj92R1tkEGCL0kft21MwziTYRQgfaKJrIDWDGDvIgnXfmWzcRL2E7woxEnlqEe0DszWVmdb4ZE480siDEOlLUYqllMHB/s320/watch7-removebg-preview.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0pKT1m7VIXiOyqypyOCSW50sPu0nLDNmki5QxPMiaaQ29ya46YYg_3McEXef99tB0x_UF5QvYWAP44r1qH12U5gB5vD8ojEpUpj92R1tkEGCL0kft21MwziTYRQgfaKJrIDWDGDvIgnXfmWzcRL2E7woxEnlqEe0DszWVmdb4ZE480siDEOlLUYqllMHB/s320/watch7-removebg-preview.png);"></div></a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqkMN7CRVZeI9NrcexkYMTCIYeMhsuoEFwE2Z2p13u9bEoek0p6FqMqjibqE27YANE72nYr3MPuFqSvAEfSao2K-NQpfkVaWNRCTbcicpgsdUm10O_gpdmcq6uvfL5r669kthx7PEFL6iqqRCFepcXU0WAXpual5g8t8oHh84YmijLuWwPQdOijD7lbC4/s320/watch8-removebg-preview.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqkMN7CRVZeI9NrcexkYMTCIYeMhsuoEFwE2Z2p13u9bEoek0p6FqMqjibqE27YANE72nYr3MPuFqSvAEfSao2K-NQpfkVaWNRCTbcicpgsdUm10O_gpdmcq6uvfL5r669kthx7PEFL6iqqRCFepcXU0WAXpual5g8t8oHh84YmijLuWwPQdOijD7lbC4/s320/watch8-removebg-preview.png);"></div></a>
 							</div>
 						</div>
-					</div>						
-					<div class="row justify-content-start">
-						<div class="col-lg-6 faq-left">
-							<div id="accordion">
-							  <div class="card">
-							    <div class="card-header" id="headingOne">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							          Are your Templates responsive?
-							        </button>
-							      </h5>
-							    </div>
-
-							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingTwo">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							          Does it have all the plugin as mentioned?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingThree">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							          Can i use the these theme for my client?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingThree">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-							          Are your Templates responsive?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>							  
-							</div>							
-						</div>	
 					</div>
-				</div>	
-			</section>
+					
+					
+				</div>
+			</div>
+<section id="review" class="review">
+    <!-- Container for the reviews section -->
+    <div class="reviews-container">
+        <!-- Heading for the reviews section -->
+        <h2>What Customers Are Saying</h2>
+        <!-- Slider container holding all review boxes -->
+        <div class="reviews-slider">
+            <!-- Individual review boxes -->
+            <div class="review-box">
+                <p>"Absolutely in love with my new watch from Watch House! The quality is top-notch, and the customer service was outstanding." - Mrs. Smith, Parent</p>
+                <div class="stars">★★★★☆</div>
+            </div>
+            <div class="review-box">
+                 <p>"Watch House has an incredible selection of luxury watches. I bought a gift for my husband, and he was thrilled." - John Doe, Parent</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review-box">
+                <p>"Great variety of watches at Watch House! The staff was friendly and really knowledgeable." - Mr. Anderson, Teacher</p>
+                <div class="stars">★★★★☆</div>
+            </div>
+            <div class="review-box">
+                 <p>"The design and craftsmanship of the watches at Watch House are just amazing! " - Emily R., Doctort</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review-box">
+                <p>"Fantastic experience with Watch House! Their selection is premium, and I was able to find a watch that fits my style perfectly." - Mrs. Johnson, Parent</p>
+                <div class="stars">★★★★☆</div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<style>
+/* Reviews section styling */
+#reviews {
+    padding: 20px; /* Padding around the reviews section */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    color: #333; /* Dark text color for readability */
+    overflow: hidden; /* Hide any content that overflows the section */
+}
+
+/* Container for the reviews */
+.reviews-container {
+    max-width: 1200px; /* Max width to center the content */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center-align the text */
+    position: relative; /* Relative positioning for flexibility */
+}
+
+/* Styling for the section heading */
+.reviews-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2rem; /* Larger font size for prominence */
+}
+
+/* Slider that holds and scrolls the reviews */
+.reviews-slider {
+    display: flex; /* Flexbox layout for horizontal alignment */
+    justify-content: space-around; /* Space between review boxes */
+    align-items: center; /* Center items vertically */
+    flex-wrap: nowrap; /* Prevent wrapping, keep reviews in one line */
+    gap: 20px; /* Space between each review box */
+    animation: scrollReviews 15s linear infinite; /* Smooth, infinite scrolling animation */
+}
+
+/* Styling for each individual review box */
+.review-box {
+    min-width: 300px; /* Minimum width for each review box */
+    padding: 15px; /* Padding inside each box */
+    background: #fff; /* White background for the review box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border-radius: 8px; /* Rounded corners for the review box */
+    font-size: 1rem; /* Standard font size for readability */
+}
+
+/* Styling for the star ratings */
+.stars {
+    margin-top: 10px; /* Space above the star ratings */
+    font-size: 1.5rem; /* Larger font size for visibility */
+    color: #FFA500; /* Gold color for the stars */
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scrollReviews {
+    0% {
+        transform: translateX(100%); /* Start with the content off-screen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* End with the content off-screen to the left */
+    }
+}
+</style>
+    <div class="responsive-map">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7008.191058262487!2d77.05952567677143!3d28.621891232492565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0319cf5d5d87%3A0x83f65438ccf343f8!2sUttam%20Nagar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1695640623456!5m2!1sen!2sin" 
+    width="600" 
+    height="450" 
+    frameborder="0" 
+    style="border:0" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<style>
+  .responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+</style>
+
+<section class="container" id="#contact">
+  <h1>Get In Touch</h1>
+  <form id="#">
+  <div class="row">
+  <div class="col">
+    <input type="text" class="form-control" name="Name" placeholder="Name" aria-label="Name">
+  </div>
+  <div class="col">
+    <input type="Email" class="form-control" name="email" placeholder="Email" aria-label="Email">
+  </div>
+</div>
+     <div class="row">
+  <div class="col">
+    <input id="message" name="message" type="Message:" class="form-control" name="Message" placeholder="Message" aria-label="Message">
+  </div>
+</div>
+    <div class="form-group">
+      <label for="subject">Mobile:</label>
+      <input type="tel" id="tel" name="Mobile" required>
+    </div>
+    <div class="input-group-icon mt-10">
+										<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
+										<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'" required class="single-input">
+									</div>
+									<div class="input-group-icon mt-10">
+										<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+										<div class="form-select" id="default-select"">
+											<select>
+												<option value="1">City</option>
+												<option value="1">Dhaka</option>
+												<option value="1">Dilli</option>
+												<option value="1">Newyork</option>
+												<option value="1">Islamabad</option>
+											</select>
+										</div>
+									</div>
+									<div class="input-group-icon mt-10">
+										<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+										<div class="form-select" id="default-select"">
+											<select>
+												<option value="1">Country</option>
+												<option value="1">Bangladesh</option>
+												<option value="1">India</option>
+												<option value="1">England</option>
+												<option value="1">Srilanka</option>
+											</select>
+										</div>
+									</div>
+									
+									<div class="mt-10">
+										<textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
+									</div>
+    <div class="form-group">
+      <button type="submit">Submit</button>
+    </div>
+</form>
+</section>
+
+
 			<!-- End faq Area -->
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>About Us</h6>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
-								</p>
-								<p class="footer-text">
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
-								<div class="" id="mc_embed_signup">
-									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-			                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-			                            	<div style="position: absolute; left: -5000px;">
-												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-											</div>
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
 
-										<div class="info"></div>
-									</form>
-								</div>
-							</div>
-						</div>						
-						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-							<div class="single-footer-widget">
-								<h6>Follow Us</h6>
-								<p>Let us be social</p>
-								<div class="footer-social d-flex align-items-center">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-dribbble"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
-								</div>
-							</div>
-						</div>							
-					</div>
-				</div>
-			</footer>	
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="single-footer-widget">
+                    <h6>Working Hours</h6>
+                    <p>Mon - Fri: 9 AM - 5 PM</p>
+                    <p>Sat: 10 AM - 4 PM</p>
+                    <p>Sun: Closed</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="single-footer-widget">
+              
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="single-footer-widget">
+                   
+                    <ul class="footer-links">
+                        <li><a href="#feature">Feature</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#review">Review</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<style>
+.footer-area {
+    padding: 20px 0;
+}
+
+.single-footer-widget {
+    text-align: center; /* Center align text */
+}
+
+.footer-links {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+    margin: 5px 0; /* Space between links */
+}
+</style>
+<style>
+    .copyright {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #f8f9fa;
+        border-top: 1px solid #e0e0e0;
+    }
+    .copyright span {
+        display: inline-block;
+        margin-left: 50px;
+        color: #333;
+        font-size: 14px;
+    }
+    .copyright strong span {
+        color: #007bff; /* Change this to your preferred color */
+    }
+    .credits {
+        text-align: center;
+        margin-top: 10px;
+        color: #555;
+    }
+    .credits a {
+        text-decoration: none;
+        color: #007bff;
+    }
+</style>
+
+<div align="center" class="copyright">
+    <span>&copy; Copyright <strong><span id="yearSpan"></span> Smart Watch</strong>. All Rights Reserved</span>
+</div>
+<div  class="credits">
+    <span>Powered By <a href="https://company.kwaga.ltd/"><span class="badge bg-dark">KwagaWebDev</span></a></span>
+</div>
+
+<script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+    // Calculate the next year
+    const nextYear = currentYear + 1;
+    // Set the text in the span
+    document.getElementById('yearSpan').textContent = `${currentYear}-${nextYear}`;
+</script>
+</br></br>
+<!-- Button with Badges and Stars -->
+<div class="contact-info" style="text-align: left; margin-left: 30px;">
+  <button type="button" class="btn btn-primary" style="display: flex; align-items: center; padding: 10px 20px;">
+    <h5 style="margin: 0;">
+      <span class="badge bg-primary">K</span>
+      <span class="badge bg-secondary">W</span>
+      <span class="badge bg-danger">D</span>
+      <span class="badge bg-success">4.7</span>
+      <span class="badge bg-info">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </span>
+    </h5>
+  </button>
+</div>
+ <style>
+    .wa__btn_popup {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .wa__btn_popup .wa__btn_popup_icon {
+      width: 50px;
+      height: 50px;
+      background-color: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 300px;
+      display: none;
+      z-index: 1000;
+      border-radius: 0.25rem;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box .wa__popup_heading {
+      background-color: #28a745;
+      color: #f8f9fa;
+      padding: 1rem 1.5rem;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content {
+      
+      margin: 1.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content_item {
+      margin-bottom: 0.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_name {
+      font-weight: bold;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_duty {
+      color: #6c757d;
+    }
+
+    .wa__popup_chat_box a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+
+  <div class="wa__btn_popup">
+    <div class="wa__btn_popup_icon">
+      <i class="fa fa-2x fa-comments"></i>
+    </div>
+  </div>
+
+  <div class="wa__popup_chat_box wa__pending wa__lauch">
+    <div class="wa__popup_heading">
+      <div class="fw-bold wa__popup_title">Start a Conversation</div>
+      <div class="small wa__popup_intro">
+        Hi! Click one of our members below to chat on <strong>)</strong>
+      </div>
+    </div>
+
+   <div class="wa__popup_content wa__popup_content_left">
+       <!--<div class="small text-secondary wa__popup_notice">
+        Tim kami biasanya membalas dalam hitungan menit
+      </div>-->
+
+      <div class="wa__popup_content_list">
+        <!-- Member 1 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=7838090428" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('https://demo.ninjateam.org/whatsapp-chat-wordpress/wp-content/uploads/sites/47/2018/11/17299bc407878ac0b9a914493b172fce_169x169.jpg');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Tommy Wilton</div>
+              <div class="wa__member_duty">Customer Support</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://web.whatsapp.com/send?phone=8797529661" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('https://demo.ninjateam.org/whatsapp-chat-wordpress/wp-content/uploads/sites/47/2018/11/e979645000ac6cf7865e0b904df2817e_169x169.jpg');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Kelly Nguyen</div>
+              <div class="wa__member_duty">Sale Support</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- /.wa__popup_content_list -->
+    </div>
+    <!-- /.wa__popup_content -->
+  </div>
+
+  <script>
+    document.querySelector('.wa__btn_popup').addEventListener('click', function() {
+      const chatBox = document.querySelector('.wa__popup_chat_box');
+      if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+        chatBox.style.display = 'block';
+      } else {
+        chatBox.style.display = 'none';
+      }
+    });
+  </script>
+    </div>
+  </footer>
 			<!-- End footer Area -->	
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
