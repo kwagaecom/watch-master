@@ -202,9 +202,8 @@ socialShareButtons.forEach(function (button) {
 });
 
   </script>
-
-  <header id="header">
-    <div class="container">
+<header id="header">
+    <div class="container-fluid"> <!-- Changed to container-fluid for better responsiveness -->
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
                 <a href="index.html"><img src="img/logo.png" alt="Logo" title="Home" /></a>
@@ -241,7 +240,6 @@ socialShareButtons.forEach(function (button) {
                         <li class="nav-item">
                             <a class="nav-link" href="#faq">FAQ</a>
                         </li>
-                        <!-- Order button triggers modal -->
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#orderModal">Order</a>
                         </li>
@@ -251,53 +249,56 @@ socialShareButtons.forEach(function (button) {
         </div>
     </div>
 </header>
-
-
-    <!-- Modal for Order -->
-    <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="orderModalLabel">Place Your Order</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- Order Form -->
-                    <form id="orderForm">
-                        <div class="form-group">
-                            <label for="orderName">Full Name</label>
-                            <input type="text" class="form-control" id="orderName" placeholder="Enter your full name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="orderEmail">Email address</label>
-                            <input type="email" class="form-control" id="orderEmail" placeholder="Enter your email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="orderItems">Items to Order</label>
-                            <textarea class="form-control" id="orderItems" rows="3" placeholder="Enter items you wish to order" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="orderDate">Order Date</label>
-                            <input type="date" class="form-control" id="orderDate" required>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-success">Place Order</button>
-                </div>
+<!-- Modal for Order -->
+<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document"> <!-- Added modal-dialog-centered -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderModalLabel">Place Your Order</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Order Form -->
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="orderName">Full Name</label>
+                        <input type="text" class="form-control" id="orderName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="orderEmail">Email address</label>
+                        <input type="email" class="form-control" id="orderEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="orderItems">Items to Order</label>
+                        <textarea class="form-control" id="orderItems" rows="3" placeholder="Enter items you wish to order" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="orderDate">Order Date</label>
+                        <input type="date" class="form-control" id="orderDate" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-success">Place Order</button>
             </div>
         </div>
     </div>
-
-    <!-- Bootstrap JS (for modal functionality) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- #header -->
-
+</div>
+<style>
+@media (max-width: 576px) {
+    #orderForm .form-control {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .modal-footer .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+</style>
 
 			<!-- start banner Area -->
 			<section class="banner-area" id="home">	
@@ -1613,6 +1614,35 @@ socialShareButtons.forEach(function (button) {
     }
 }
 </style>
+
+  <section id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner"align="center">
+    <!-- First Video -->
+    <div class="carousel-item active">
+    <iframe width="697" height="392" src="https://www.youtube.com/embed/B3v6T2K9e7I" title="घड़ी की दुकान कैसे खोलें? How to Start Watch Shop । Ghadi ki dukan kaise khole । Clock shop business।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+      
+    
+    <!-- Second Video -->
+    <div class="carousel-item">
+    <iframe width="702" height="392" src="https://www.youtube.com/embed/fhjsNL5oCzw" title="घड़ी की दुकान कैसे खोलें | How to start watch and clock shop business | Watch shop business | ASK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- Third Video -->
+    <div class="carousel-item">
+      <iframe width="697" height="392" src="https://www.youtube.com/embed/Rf4rU1hwQXc" title="#1 How to Start a Business with No Money? By Sandeep Maheshwari I Hindi #businessideas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- Fourth Video -->
+    <div class="carousel-item">
+      <iframe width="697" height="392" src="https://www.youtube.com/embed/DFKSsXuT8IA" title="Highway Dhaba Business | Modern Dhaba | Highway Restaurant  यह वीडियो देख लिया तो कभी फेल नहीं होंगे" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Controls -->
+
+</section>
     <div class="responsive-map">
   <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7008.191058262487!2d77.05952567677143!3d28.621891232492565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0319cf5d5d87%3A0x83f65438ccf343f8!2sUttam%20Nagar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1695640623456!5m2!1sen!2sin" 
