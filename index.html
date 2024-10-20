@@ -450,8 +450,8 @@ socialShareButtons.forEach(function (button) {
                 <div class="video-wrapper position-relative">
                     <div class="overlay overlay-bg"></div>
                     <!-- Play Button with YouTube Video -->
-                    <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM" target="_blank">
-                        <img class="img-fluid" src="img/play-icon.png" alt="Play Video">
+                   <img src="https://media.istockphoto.com/id/973117190/photo/luxury-watches-at-showcase.webp?a=1&b=1&s=612x612&w=0&k=20&c=Dbk5_s5Fi_jSFHwgwg6W8Grc-LEh-ElvOQGOwfa56Qs=" alt="Project Creation" class="item-image">
+                        
                     </a>
                 </div>
             </div>
@@ -565,7 +565,7 @@ socialShareButtons.forEach(function (button) {
                             <!-- Modal Footer -->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -733,314 +733,542 @@ socialShareButtons.forEach(function (button) {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel1">Enquiry for Exclusive Watch</h5>
+                    <h7 class="modal-title" id="inquiryModalLabel1"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm">Smartwatches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/u1.jpg" alt="Home Tutors for Primary" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name1" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name1" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email1" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone1" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone1" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline1" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline1" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Inquiry Modal 2 -->
-    <div class="modal fade" id="inquiryModal2" tabindex="-1" aria-labelledby="inquiryModalLabel2" aria-hidden="true">
+  <div class="modal fade" id="inquiryModal2" tabindex="-1" aria-labelledby="inquiryModalLabel2" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel2">Enquiry for Exclusive Watch </h5>
+                    <h7 class="modal-title" id="inquiryModalLabel2"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm">Hybrid Watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/u2.jpg" alt="Home Tutors for Higher" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name2" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name2" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email2" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email2" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone2" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone2" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline2" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline2" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Inquiry Modal 3 -->
-    <div class="modal fade" id="inquiryModal3" tabindex="-1" aria-labelledby="inquiryModalLabel3" aria-hidden="true">
+   <div class="modal fade" id="inquiryModal3" tabindex="-1" aria-labelledby="inquiryModalLabel3" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel3">Enquiry for Exclusive Watch</h5>
+                    <h7 class="modal-title" id="inquiryModalLabel3"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm">Minimalist Watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/u3.jpg" alt="Home Tutors For Engineering" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name3" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name3" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email3" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email3" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone3" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone3" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline3" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline3" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Inquiry Modal 4 -->
     <div class="modal fade" id="inquiryModal4" tabindex="-1" aria-labelledby="inquiryModalLabel4" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel4">Enquiry for Exclusive Watch</h5>
+                    <h7 class="modal-title" id="inquiryModalLabel4"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm"> Diving Watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="img/u4.jpg" alt="Home Tutors For Medical" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name4" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone4" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline4" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
-     <div class="modal fade" id="inquiryModal5" tabindex="-1" aria-labelledby="inquiryModalLabel5" aria-hidden="true">
+    <div class="modal fade" id="inquiryModal5" tabindex="-1" aria-labelledby="inquiryModalLabel5" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel5">Enquiry for Exclusive Watch</h5>
+                    <h7 class="modal-title" id="inquiryModalLabel5"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm"> Chronograph Watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWCQET7SK4ii6iWmTSNKQWWDHEl5i4x17h33AmIFTP9WqHvX1RISN1Xv41tHo8obwFbiJWQVjYsK8sR5pNjb7otlkcBpzAEFpkZ5N3c7rzN4qnfTPPlVrch7s-xD5003R9PCu9hG7yVCf4n_6kl-gayON7Oq8Xfv4bjLG_ySQD1SgIZQ1M3JZZk6LOvyvl/s320/watch2-removebg-preview.png" alt="Home Tutors for Primary" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name1" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name1" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email1" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone1" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone1" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline1" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline1" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Inquiry Modal 2 -->
     <div class="modal fade" id="inquiryModal6" tabindex="-1" aria-labelledby="inquiryModalLabel6" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel6">Enquiry for Exclusive Watch </h5>
+                    <h7 class="modal-title" id="inquiryModalLabel6"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm"> Skeleton Watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqkMN7CRVZeI9NrcexkYMTCIYeMhsuoEFwE2Z2p13u9bEoek0p6FqMqjibqE27YANE72nYr3MPuFqSvAEfSao2K-NQpfkVaWNRCTbcicpgsdUm10O_gpdmcq6uvfL5r669kthx7PEFL6iqqRCFepcXU0WAXpual5g8t8oHh84YmijLuWwPQdOijD7lbC4/s320/watch8-removebg-preview.png" alt="Home Tutors for Higher" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name2" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name2" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email2" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email2" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone2" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone2" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline2" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline2" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Inquiry Modal 3 -->
-    <div class="modal fade" id="inquiryModal7" tabindex="-1" aria-labelledby="inquiryModalLabel7" aria-hidden="true">
+   <div class="modal fade" id="inquiryModal7" tabindex="-1" aria-labelledby="inquiryModalLabel7" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel7">Enquiry for Exclusive Watch</h5>
+                    <h7 class="modal-title" id="inquiryModalLabel7"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm">Fitness Watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0pKT1m7VIXiOyqypyOCSW50sPu0nLDNmki5QxPMiaaQ29ya46YYg_3McEXef99tB0x_UF5QvYWAP44r1qH12U5gB5vD8ojEpUpj92R1tkEGCL0kft21MwziTYRQgfaKJrIDWDGDvIgnXfmWzcRL2E7woxEnlqEe0DszWVmdb4ZE480siDEOlLUYqllMHB/s320/watch7-removebg-preview.png" alt="Home Tutors For Engineering" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name3" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name3" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email3" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email3" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone3" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone3" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline3" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline3" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Inquiry Modal 4 -->
-    <div class="modal fade" id="inquiryModal8" tabindex="-1" aria-labelledby="inquiryModalLabel8" aria-hidden="true">
+<div class="modal fade" id="inquiryModal8" tabindex="-1" aria-labelledby="inquiryModalLabel8" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="inquiryModalLabel8">Enquiry for Exclusive Watch</h5>
+                    <h7 class="modal-title" id="inquiryModalLabel8"> <h6 ><button type="button" class="btn btn-warning btn-sm">Enquiry </button><button type="button" class="btn btn-info btn-sm">Now For </button><button type="button" class="btn btn-dark btn-sm">Special watches</button></h6></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-Z8xMUg-323Sbn0zY-q7ioQqaIhvNXlj63Hxmorodb6n-U4Ciq3xR-n7XbKsUpfyArZSNhAT91tkh0S-iqwvwmT-8G8QbRktyr8QLs_G6EozCtB0h49ucpN932-34W4NDzlr6fAN4-5FwpzR9hd_9NaJm9nGm91rvOhmrqOWKMHZEIYOO7tLm2yiVBg-/s320/watch5-removebg-preview.png" alt="Home Tutors For Medical" class="img-fluid" style="max-width: 100px;">
+                <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/1203037146/photo/smart-watches-on-the-counter-of-a-electronics-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0k8NEA1eg_ke1d07sD7-AIgkbnRKV0-B2db9e1HTwB0='); background-size: cover; background-position: center;">
+                  <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                   <form>
+                    <div class="row">
+                     <div class="col">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name4" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone4" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline4" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                     <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  <div class="col">
+                         <label for="watchModel" class="form-label">Watch Model</label>
+                        <input type="text" class="form-control" id="watchModel" placeholder="Enter the watch model" required>
+                    </div>
+                    </div>
+
+<div class="row">
+                    <div class="col">
+                        <label for="watchCondition" class="form-label">Type of  Watch</label>
+            <select class="form-select" id="watchCondition" required>
+              <option selected disabled>Select Type</option>
+              <option value="Smartwatches">Smartwatches/option>
+              <option value="Hybrid Watches">Hybrid Watches</option>
+              <option value="Minimalist Watches">Minimalist Watches</option>
+              <option value=" Diving Watches"> Diving Watches</option>
+              <option value="Smartwatches">Smartwatches</option>
+              <option value="Chronograph Watches">Chronograph Watches</option>
+              <option value="Skeleton Watches">Skeleton Watches</option>
+              <option value=" Fitness Watches"> Fitness Watches</option>
+            </select>
+                    </div>
+                    <div class="col">
+              <label for="preferredContact" class="form-label">Preferred Contact Method</label>
+              <select class="form-select" id="preferredContact" required>
+                <option selected disabled>Select Contact Method</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Call</option>
+                <option value="whatsapp">WhatsApp</option>
+              </select>
+            </div>
+
+            </div>
+                  <div class="mt-3 mb-3">
+            <label for="additionalMessage" class="form-label">Additional Message / Enquiry</label>
+            <textarea class="form-control" id="additionalMessage" rows="3" placeholder="Enter any additional details" required></textarea>
+          </div>
+                     <button type="submit" class="btn btn-success w-100">Submit Enquiry</button>
+                </form>
                 </div>
             </div>
         </div>
